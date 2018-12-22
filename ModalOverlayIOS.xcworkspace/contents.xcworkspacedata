@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:ModalOverlayIOS-ObjC.xcodeproj">
+      location = "group:ModalOverlayIOS-Swift/ModalOverlayIOS-Swift.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ModalOverlayIOS-ObjC/ModalOverlayIOS-ObjC.xcodeproj">
    </FileRef>
 </Workspace>
