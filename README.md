@@ -1,6 +1,9 @@
 ModalOverlayIOS
 ===============
-This repository contains an iOS project that demonstrates how to use a UIWindow to overlay the existing UI.
+This repository contains iOS projects that demonstrate how to use a UIWindow to overlay the existing UI.
 
-See: http://stackoverflow.com/q/25130678/845716
+The workspace `ModalOverlayIOS.xcworkspace` contains Swift and Objective-C implementations.
 
+The projects were built for iOS 12.1 with Xcode 10.1.
+
+See the following page for more information: http://stackoverflow.com/q/25130678/845716
