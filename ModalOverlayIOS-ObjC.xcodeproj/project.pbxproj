@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,34 +17,19 @@
 		94CB654A1999CDB400A5D675 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94CB65481999CDB400A5D675 /* Main_iPad.storyboard */; };
 		94CB654D1999CDB400A5D675 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CB654C1999CDB400A5D675 /* ViewController.m */; };
 		94CB654F1999CDB400A5D675 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94CB654E1999CDB400A5D675 /* Images.xcassets */; };
-		94CB65561999CDB400A5D675 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CB65551999CDB400A5D675 /* XCTest.framework */; };
-		94CB65571999CDB400A5D675 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CB65331999CDB400A5D675 /* Foundation.framework */; };
-		94CB65581999CDB400A5D675 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CB65371999CDB400A5D675 /* UIKit.framework */; };
-		94CB65601999CDB400A5D675 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94CB655E1999CDB400A5D675 /* InfoPlist.strings */; };
-		94CB65621999CDB400A5D675 /* ModalOverlayIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CB65611999CDB400A5D675 /* ModalOverlayIOSTests.m */; };
 		94CB656E1999CEE500A5D675 /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CB656C1999CEE500A5D675 /* OverlayViewController.m */; };
 		94CB656F1999CEE500A5D675 /* OverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94CB656D1999CEE500A5D675 /* OverlayViewController.xib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		94CB65591999CDB400A5D675 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 94CB65281999CDB400A5D675 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 94CB652F1999CDB400A5D675;
-			remoteInfo = ModalOverlayIOS;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		94CB65301999CDB400A5D675 /* ModalOverlayIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalOverlayIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94CB65301999CDB400A5D675 /* ModalOverlayIOS-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ModalOverlayIOS-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CB65331999CDB400A5D675 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		94CB65351999CDB400A5D675 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		94CB65371999CDB400A5D675 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		94CB653B1999CDB400A5D675 /* ModalOverlayIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModalOverlayIOS-Info.plist"; sourceTree = "<group>"; };
+		94CB653B1999CDB400A5D675 /* ModalOverlayIOS-ObjC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModalOverlayIOS-ObjC-Info.plist"; sourceTree = "<group>"; };
 		94CB653D1999CDB400A5D675 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		94CB653F1999CDB400A5D675 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		94CB65411999CDB400A5D675 /* ModalOverlayIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ModalOverlayIOS-Prefix.pch"; sourceTree = "<group>"; };
+		94CB65411999CDB400A5D675 /* ModalOverlayIOS-ObjC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ModalOverlayIOS-ObjC-Prefix.pch"; sourceTree = "<group>"; };
 		94CB65421999CDB400A5D675 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		94CB65431999CDB400A5D675 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		94CB65461999CDB400A5D675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
@@ -52,11 +37,7 @@
 		94CB654B1999CDB400A5D675 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		94CB654C1999CDB400A5D675 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		94CB654E1999CDB400A5D675 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		94CB65541999CDB400A5D675 /* ModalOverlayIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalOverlayIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CB65551999CDB400A5D675 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		94CB655D1999CDB400A5D675 /* ModalOverlayIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModalOverlayIOSTests-Info.plist"; sourceTree = "<group>"; };
-		94CB655F1999CDB400A5D675 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		94CB65611999CDB400A5D675 /* ModalOverlayIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalOverlayIOSTests.m; sourceTree = "<group>"; };
 		94CB656B1999CEE500A5D675 /* OverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayViewController.h; sourceTree = "<group>"; };
 		94CB656C1999CEE500A5D675 /* OverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayViewController.m; sourceTree = "<group>"; };
 		94CB656D1999CEE500A5D675 /* OverlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayViewController.xib; sourceTree = "<group>"; };
@@ -73,24 +54,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94CB65511999CDB400A5D675 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				94CB65561999CDB400A5D675 /* XCTest.framework in Frameworks */,
-				94CB65581999CDB400A5D675 /* UIKit.framework in Frameworks */,
-				94CB65571999CDB400A5D675 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		94CB65271999CDB400A5D675 = {
 			isa = PBXGroup;
 			children = (
-				94CB65391999CDB400A5D675 /* ModalOverlayIOS */,
-				94CB655B1999CDB400A5D675 /* ModalOverlayIOSTests */,
+				94CB65391999CDB400A5D675 /* ModalOverlayIOS-ObjC */,
 				94CB65321999CDB400A5D675 /* Frameworks */,
 				94CB65311999CDB400A5D675 /* Products */,
 			);
@@ -99,8 +69,7 @@
 		94CB65311999CDB400A5D675 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				94CB65301999CDB400A5D675 /* ModalOverlayIOS.app */,
-				94CB65541999CDB400A5D675 /* ModalOverlayIOSTests.xctest */,
+				94CB65301999CDB400A5D675 /* ModalOverlayIOS-ObjC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,7 +85,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		94CB65391999CDB400A5D675 /* ModalOverlayIOS */ = {
+		94CB65391999CDB400A5D675 /* ModalOverlayIOS-ObjC */ = {
 			isa = PBXGroup;
 			children = (
 				94CB65421999CDB400A5D675 /* AppDelegate.h */,
@@ -131,34 +100,16 @@
 				94CB654E1999CDB400A5D675 /* Images.xcassets */,
 				94CB653A1999CDB400A5D675 /* Supporting Files */,
 			);
-			path = ModalOverlayIOS;
+			path = "ModalOverlayIOS-ObjC";
 			sourceTree = "<group>";
 		};
 		94CB653A1999CDB400A5D675 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				94CB653B1999CDB400A5D675 /* ModalOverlayIOS-Info.plist */,
+				94CB653B1999CDB400A5D675 /* ModalOverlayIOS-ObjC-Info.plist */,
 				94CB653C1999CDB400A5D675 /* InfoPlist.strings */,
 				94CB653F1999CDB400A5D675 /* main.m */,
-				94CB65411999CDB400A5D675 /* ModalOverlayIOS-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		94CB655B1999CDB400A5D675 /* ModalOverlayIOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				94CB65611999CDB400A5D675 /* ModalOverlayIOSTests.m */,
-				94CB655C1999CDB400A5D675 /* Supporting Files */,
-			);
-			path = ModalOverlayIOSTests;
-			sourceTree = "<group>";
-		};
-		94CB655C1999CDB400A5D675 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				94CB655D1999CDB400A5D675 /* ModalOverlayIOSTests-Info.plist */,
-				94CB655E1999CDB400A5D675 /* InfoPlist.strings */,
+				94CB65411999CDB400A5D675 /* ModalOverlayIOS-ObjC-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -166,9 +117,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		94CB652F1999CDB400A5D675 /* ModalOverlayIOS */ = {
+		94CB652F1999CDB400A5D675 /* ModalOverlayIOS-ObjC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94CB65651999CDB400A5D675 /* Build configuration list for PBXNativeTarget "ModalOverlayIOS" */;
+			buildConfigurationList = 94CB65651999CDB400A5D675 /* Build configuration list for PBXNativeTarget "ModalOverlayIOS-ObjC" */;
 			buildPhases = (
 				94CB652C1999CDB400A5D675 /* Sources */,
 				94CB652D1999CDB400A5D675 /* Frameworks */,
@@ -178,28 +129,10 @@
 			);
 			dependencies = (
 			);
-			name = ModalOverlayIOS;
+			name = "ModalOverlayIOS-ObjC";
 			productName = ModalOverlayIOS;
-			productReference = 94CB65301999CDB400A5D675 /* ModalOverlayIOS.app */;
+			productReference = 94CB65301999CDB400A5D675 /* ModalOverlayIOS-ObjC.app */;
 			productType = "com.apple.product-type.application";
-		};
-		94CB65531999CDB400A5D675 /* ModalOverlayIOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 94CB65681999CDB400A5D675 /* Build configuration list for PBXNativeTarget "ModalOverlayIOSTests" */;
-			buildPhases = (
-				94CB65501999CDB400A5D675 /* Sources */,
-				94CB65511999CDB400A5D675 /* Frameworks */,
-				94CB65521999CDB400A5D675 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				94CB655A1999CDB400A5D675 /* PBXTargetDependency */,
-			);
-			name = ModalOverlayIOSTests;
-			productName = ModalOverlayIOSTests;
-			productReference = 94CB65541999CDB400A5D675 /* ModalOverlayIOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -209,14 +142,9 @@
 			attributes = {
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Rob Bajorek";
-				TargetAttributes = {
-					94CB65531999CDB400A5D675 = {
-						TestTargetID = 94CB652F1999CDB400A5D675;
-					};
-				};
 			};
-			buildConfigurationList = 94CB652B1999CDB400A5D675 /* Build configuration list for PBXProject "ModalOverlayIOS" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = 94CB652B1999CDB400A5D675 /* Build configuration list for PBXProject "ModalOverlayIOS-ObjC" */;
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -228,8 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				94CB652F1999CDB400A5D675 /* ModalOverlayIOS */,
-				94CB65531999CDB400A5D675 /* ModalOverlayIOSTests */,
+				94CB652F1999CDB400A5D675 /* ModalOverlayIOS-ObjC */,
 			);
 		};
 /* End PBXProject section */
@@ -247,14 +174,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94CB65521999CDB400A5D675 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				94CB65601999CDB400A5D675 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -269,23 +188,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94CB65501999CDB400A5D675 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				94CB65621999CDB400A5D675 /* ModalOverlayIOSTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		94CB655A1999CDB400A5D675 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 94CB652F1999CDB400A5D675 /* ModalOverlayIOS */;
-			targetProxy = 94CB65591999CDB400A5D675 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		94CB653C1999CDB400A5D675 /* InfoPlist.strings */ = {
@@ -310,14 +213,6 @@
 				94CB65491999CDB400A5D675 /* Base */,
 			);
 			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		94CB655E1999CDB400A5D675 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				94CB655F1999CDB400A5D675 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -428,8 +323,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ModalOverlayIOS/ModalOverlayIOS-Prefix.pch";
-				INFOPLIST_FILE = "ModalOverlayIOS/ModalOverlayIOS-Info.plist";
+				GCC_PREFIX_HEADER = "ModalOverlayIOS-ObjC/ModalOverlayIOS-ObjC-Prefix.pch";
+				INFOPLIST_FILE = "ModalOverlayIOS-ObjC/ModalOverlayIOS-ObjC-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoaswirl.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -442,60 +337,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ModalOverlayIOS/ModalOverlayIOS-Prefix.pch";
-				INFOPLIST_FILE = "ModalOverlayIOS/ModalOverlayIOS-Info.plist";
+				GCC_PREFIX_HEADER = "ModalOverlayIOS-ObjC/ModalOverlayIOS-ObjC-Prefix.pch";
+				INFOPLIST_FILE = "ModalOverlayIOS-ObjC/ModalOverlayIOS-ObjC-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoaswirl.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		94CB65691999CDB400A5D675 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ModalOverlayIOS.app/ModalOverlayIOS";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ModalOverlayIOS/ModalOverlayIOS-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "ModalOverlayIOSTests/ModalOverlayIOSTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoaswirl.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		94CB656A1999CDB400A5D675 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ModalOverlayIOS.app/ModalOverlayIOS";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ModalOverlayIOS/ModalOverlayIOS-Prefix.pch";
-				INFOPLIST_FILE = "ModalOverlayIOSTests/ModalOverlayIOSTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoaswirl.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		94CB652B1999CDB400A5D675 /* Build configuration list for PBXProject "ModalOverlayIOS" */ = {
+		94CB652B1999CDB400A5D675 /* Build configuration list for PBXProject "ModalOverlayIOS-ObjC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94CB65631999CDB400A5D675 /* Debug */,
@@ -504,20 +357,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94CB65651999CDB400A5D675 /* Build configuration list for PBXNativeTarget "ModalOverlayIOS" */ = {
+		94CB65651999CDB400A5D675 /* Build configuration list for PBXNativeTarget "ModalOverlayIOS-ObjC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94CB65661999CDB400A5D675 /* Debug */,
 				94CB65671999CDB400A5D675 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		94CB65681999CDB400A5D675 /* Build configuration list for PBXNativeTarget "ModalOverlayIOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				94CB65691999CDB400A5D675 /* Debug */,
-				94CB656A1999CDB400A5D675 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
