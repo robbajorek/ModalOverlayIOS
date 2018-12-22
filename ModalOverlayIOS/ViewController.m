@@ -19,10 +19,16 @@
 @property (strong) UITapGestureRecognizer *doubleTapRecognizer;
 // The window that will appear over our existing one.
 @property (strong) UIWindow *overlayWindow;
+// The window that contains the keyboard.
+@property (strong, readonly) UIWindow *keyboardWindow;
 @end
 
 @implementation ViewController
-            
+- (UIWindow *)keyboardWindow {
+    NSArray<UIWindow *> *windows = [UIApplication sharedApplication].windows;
+    return windows[windows.count - 1];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
@@ -54,22 +60,22 @@
 
     // Nicer transition
     self.overlayWindow.alpha = 0.0f;
-    [self.overlayWindow makeKeyAndVisible];
+    [self.overlayWindow setHidden:false];
     [UIWindow animateWithDuration:0.3 animations:^{
         self.overlayWindow.alpha = 1.0f;
+        self.keyboardWindow.alpha = 0.0f;
+    } completion:^(BOOL finished) {
+        [self.keyboardWindow setHidden:true];
     }];
-
-    // This fixes a problem with needing to click off the text field and back again
-    //  before it will recognize a second double-click gesture.
-    [self.firstField removeGestureRecognizer:self.doubleTapRecognizer];
-    [self.firstField addGestureRecognizer:self.doubleTapRecognizer];
 }
 
 - (void)optionOneChosen {
     self.label.text = @"Option 1 chosen";
+    [self.keyboardWindow setHidden:false];
     [UIWindow animateWithDuration:0.3f
                        animations:^{
                            self.overlayWindow.alpha = 0.0f;
+                           self.keyboardWindow.alpha = 1.0f;
                        } completion:^(BOOL finished) {
                            self.overlayWindow = nil;
                        }];
@@ -77,9 +83,11 @@
 
 - (void)optionTwoChosen {
     self.label.text = @"Option 2 chosen";
+    [self.keyboardWindow setHidden:false];
     [UIWindow animateWithDuration:0.3f
                        animations:^{
                            self.overlayWindow.alpha = 0.0f;
+                           self.keyboardWindow.alpha = 1.0f;
                        } completion:^(BOOL finished) {
                            self.overlayWindow = nil;
                        }];
